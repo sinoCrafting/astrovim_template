@@ -65,6 +65,13 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+
+        ["<M-j>"] = { "<Cmd>move .+1<CR>==" },
+        ["<M-k>"] = { "<Cmd>move .-2<CR>==" },
+      },
+      x = {
+        ["<M-j>"] = { ":move '>+1<CR>gv=gv" },
+        ["<M-k>"] = { ":move '<-2<CR>gv=gv" },
       },
     },
   },
