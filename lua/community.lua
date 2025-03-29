@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- import/override with your plugins folder
 }
